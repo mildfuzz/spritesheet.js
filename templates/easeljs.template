@@ -6,8 +6,8 @@
 	    {{/files}}
 	],
 	"animations": {
-		{{#files}}
-	            "{{name}}":[{{index}}]{{^isLast}},{{/isLast}}
-	    {{/files}}
+		{{#animations}}
+	            "{{name}}":[{{frames}}]{{^isLast}},{{/isLast}}
+	    {{/animations}}
 	}
 }
